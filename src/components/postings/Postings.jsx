@@ -1,12 +1,12 @@
 import React from 'react'
 import "../postings/postings.css"
 
-function Postings() {
+function Posting() {
     return (
-        <div className='postings'>
-            <div className="postings_wrapper"></div>
+        <div className='posting'>
+            <div className="posting_wrapper"></div>
         </div>
     )
 }
 
-export default Postings
+export default Posting
