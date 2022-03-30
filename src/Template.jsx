@@ -44,7 +44,7 @@ export const PostsData = [
     {
         id: 2,
         desc: "What a goal",
-        photo: "Assets/Logo.png",
+        photo: "Assets/Logo3.webp",
         date: "10 mins ago",
         userId: 2,
         like: 13,
@@ -53,7 +53,7 @@ export const PostsData = [
     {
         id: 3,
         desc: "We deserve it",
-        photo: "Assets/Logo2.jpg",
+        photo: "Assets/Logo4.jpg",
         date: "2 mins ago",
         userId: 3,
         like: 8,
@@ -62,7 +62,7 @@ export const PostsData = [
     {
         id: 4,
         desc: "That is great",
-        photo: "Assets/Logo.png",
+        photo: "Assets/Logo2.jpg",
         date: "12 mins ago",
         userId: 4,
         like: 7,
@@ -71,7 +71,7 @@ export const PostsData = [
     {
         id: 5,
         desc: "Victory is ours",
-        photo: "Assets/Logo2.jpg",
+        photo: "Assets/Logo3.webp",
         date: "2 mins ago",
         userId: 5,
         like: 18,
@@ -80,7 +80,7 @@ export const PostsData = [
     {
         id: 6,
         desc: "NO one can stop us",
-        photo: "Assets/Logo.png",
+        photo: "Assets/Logo6.jpg",
         date: "2 mins ago",
         userId: 6,
         like: 18,
