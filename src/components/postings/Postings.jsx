@@ -23,7 +23,7 @@ function Posting({ posting }) {
                 </div>
                 <div className="posting_content">
                     <span>{posting?.desc}</span>
-                    <img src={posting.photo} alt="" />
+                    <img src={posting?.photo} alt="" />
                 </div>
                 <div className='posting_options'>
                     <div>
