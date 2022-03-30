@@ -44,7 +44,12 @@ function leftOptions() {
                         <School />
                         <span>Corses</span>
                     </li>
-
+                </ul>
+                <ul className='friends_leftSide'>
+                    <li>
+                        <img src="" alt="" />
+                        <span>Friend name</span>
+                    </li>
                 </ul>
             </div>
         </div>
