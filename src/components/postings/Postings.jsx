@@ -6,14 +6,14 @@ import { MoreVert } from "@material-ui/icons"
 
 function Posting({ posting }) {
 
-    const user = Users.find
+
 
     return (
         <div className='posting'>
             <div className="posting_wrapper">
                 <div className="posting_info">
                     <div className="posting_user">
-                        <img src="" alt="" />
+                        <img src={Users.filter((user) => user.id === posting?.userId)[0].profilePicture} alt="" />
                         <span className='post_username'>{Users.filter((u) => u.id === posting?.userId)[0].userName}</span>
                         <span className='timePost'>{posting.date}</span>
                     </div>
