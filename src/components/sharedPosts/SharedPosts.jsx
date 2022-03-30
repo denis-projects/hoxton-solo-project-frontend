@@ -1,6 +1,6 @@
 import React from 'react'
 import "../sharedPosts/sharedPosts.css"
-import { PermMedia } from "@material-ui/icons"
+import { EmojiEmotions, Label, PermMedia, Room } from "@material-ui/icons"
 
 function SharePosts() {
     return (
@@ -11,11 +11,24 @@ function SharePosts() {
                     <input type="text" placeholder="What's in your mind?" />
                 </div>
                 <div className="share_options">
-                    <div className="share_photo">
+                    <div className="share_option">
                         <PermMedia />
                         <span>Photo or Video</span>
                     </div>
+                    <div className="share_option">
+                        <Label />
+                        <span>Tag</span>
+                    </div>
+                    <div className="share_option">
+                        <Room />
+                        <span>Location</span>
+                    </div>
+                    <div className="share_option">
+                        <EmojiEmotions htmlColor='gold' />
+                        <span>Feelings</span>
+                    </div>
                 </div>
+                <button>Share</button>
 
             </div>
         </div>
