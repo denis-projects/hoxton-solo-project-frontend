@@ -25,6 +25,7 @@ function Posting() {
                     <div>
                         {/* <FavoriteIcon />
                         <ThumbUpIcon /> */}
+                        <span>18 people like this</span>
                     </div>
 
                 </div>
