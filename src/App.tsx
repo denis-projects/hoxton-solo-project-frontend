@@ -1,7 +1,7 @@
 import { useState } from 'react'
 // @ts-ignore
 import Home from "./pages/home/Home.jsx"
-import { Person } from "@material-ui/icons"
+import "../src/App.css"
 
 
 function App() {
@@ -10,7 +10,6 @@ function App() {
   return (
     <div className="App">
       <Home />
-      <Person />
     </div>
   )
 }
