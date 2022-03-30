@@ -3,7 +3,9 @@ import "../rightBar/rightbar.css"
 
 function RightBar() {
     return (
-        <div>RightBar</div>
+        <div className='right_container'>
+            RightBar
+        </div>
     )
 }
 

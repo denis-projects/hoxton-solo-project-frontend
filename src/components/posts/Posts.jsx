@@ -3,7 +3,9 @@ import "../posts/posts.css"
 
 function Posts() {
     return (
-        <div>Posts</div>
+        <div className='posts_container'>
+            Posts
+        </div>
     )
 }
 
