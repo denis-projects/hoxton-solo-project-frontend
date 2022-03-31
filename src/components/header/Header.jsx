@@ -2,11 +2,16 @@ import "../header/header.css"
 import React from 'react'
 import { Chat, Notifications, Person, Search } from "@material-ui/icons"
 
+
+
+
 function Header() {
     return (
         <div className="header_Container">
             <div className="header_leftSide">
-                <span>AlBOOK</span>
+                <div className="logo_image">
+                    <span className="logo_span">STAY CONNECTED</span>
+                </div>
             </div>
 
             <div className="header_searchbar">
@@ -23,16 +28,16 @@ function Header() {
                 </div>
                 <div className="header_iconsContainer">
                     <div className="header_icons">
-                        <Person />
-                        <span>1</span>
+                        <Person htmlColor='white' />
+                        <span className="span_notification">1</span>
                     </div>
                     <div className="header_icons">
-                        <Chat />
-                        <span>1</span>
+                        <Chat htmlColor='white' />
+                        <span className="span_notification">1</span>
                     </div>
                     <div className="header_icons">
-                        <Notifications />
-                        <span>1</span>
+                        <Notifications htmlColor='white' />
+                        <span className="span_notification">1</span>
                     </div>
                 </div>
                 <div className="header_userImage">

@@ -3,9 +3,19 @@
     width: 100%;
     background-color: #1877f2;
     display: grid;
-    grid-template-columns: 50px 1fr 1fr;
+    grid-template-columns: 200px 1fr 1fr;
     place-content: center;
-    gap:2rem;
+
+}
+
+.header_leftSide {
+    display: grid;
+    place-content: center;
+}
+
+.logo_span {
+    color: white;
+    font-weight: 600;
 }
 
 .header_rightSide {
@@ -13,7 +23,53 @@
     grid-auto-flow: column;
 }
 
-.header_iconsContainer{
+
+.header_links {
+    color: white;
+    font-weight: 500;
+    display: grid;
+    place-content: center;
+    grid-auto-flow: column;
+    gap: 10px;
+}
+
+.header_iconsContainer {
     display: grid;
     grid-auto-flow: column;
+}
+
+
+.header_searchbar {
+    display: grid;
+    place-items: center;
+
+
+}
+
+.searchbar_section {
+    background-color: white;
+    border-radius: 20px;
+    display: grid;
+    place-content: start;
+    grid-auto-flow: column;
+    width: 100%;
+}
+
+.searchInput {
+    border: none;
+
+}
+
+
+.header_icons {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.span_notification {
+    border-radius: 100%;
+    background-color: red;
+    color: white;
+    display: grid;
+    place-content: center;
 }
