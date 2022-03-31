@@ -1,7 +1,8 @@
 import React from 'react'
 import "../leftOptions/leftOptions.css"
 import { RssFeed, Chat, PlayCircleFilledOutlined, Group, Bookmark, HelpOutline, WorkOutline, Event, School } from "@material-ui/icons"
-
+import FriendsList from '../friendsList/FriendsList'
+import { Users } from "../../Template.jsx"
 
 function leftOptions() {
     return (
@@ -46,11 +47,11 @@ function leftOptions() {
                     </li>
                 </ul>
                 <ul className='friends_leftSide'>
-                    <li>
-                        <img src="" alt="" />
-                        <span>Friend name</span>
-                    </li>
+                    {Users.map((user) => (
+                        <FriendsList key={user.id} user={user} />
+                    ))}
                 </ul>
+
             </div>
         </div>
     )
