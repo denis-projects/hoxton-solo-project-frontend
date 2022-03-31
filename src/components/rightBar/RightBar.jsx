@@ -4,17 +4,15 @@ import "../rightBar/rightbar.css"
 function RightBar() {
     return (
         <div className='right_container'>
-            <div className="right_wrapper">
+            <div className="right_birthday">
                 <img src="" alt="" />
                 <span>Ed has birthday today</span>
             </div>
             <div className='ads_container'>
                 <img src="" alt="" />
                 <h3>Online Friends</h3>
-                <ul>
+                <ul className='onlineFrinedsList'>
                     <li>Edi Rama</li>
-                    <li>Sali Berisha</li>
-                    <li>Lul Basha</li>
                 </ul>
             </div>
         </div>
