@@ -16,6 +16,7 @@
 .logo_span {
     color: white;
     font-weight: 600;
+    font-size: 1.5rem;
 }
 
 .header_rightSide {
@@ -27,6 +28,7 @@
 .header_links {
     color: white;
     font-weight: 500;
+    font-size: 1.3rem;
     display: grid;
     place-content: center;
     grid-auto-flow: column;
@@ -57,6 +59,7 @@
 
 .searchInput {
     border: none;
+    font-size: 1.2rem;
 
 }
 
