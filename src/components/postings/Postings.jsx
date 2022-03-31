@@ -13,7 +13,7 @@ function Posting({ posting }) {
             <div className="posting_wrapper">
                 <div className="posting_info">
                     <div className="posting_user">
-                        <img src={Users.filter((user) => user.id === posting?.userId)[0].profilePicture} alt="" />
+                        <img className='postProfileImg' src={Users.filter((user) => user.id === posting?.userId)[0].profilePicture} alt="" />
                         <span className='post_username'>{Users.filter((u) => u.id === posting?.userId)[0].userName}</span>
                         <span className='timePost'>{posting.date}</span>
                     </div>
@@ -22,17 +22,17 @@ function Posting({ posting }) {
                     </div>
                 </div>
                 <div className="posting_content">
-                    <span>{posting?.desc}</span>
-                    <img src={posting?.photo} alt="" />
+                    <span className='postCommentText'>{posting?.desc}</span>
+                    <img className='postImg' src={posting?.photo} alt="" />
                 </div>
                 <div className='posting_options'>
                     <div>
                         {/* <FavoriteIcon />
                         <ThumbUpIcon /> */}
-                        <span>{posting.like}</span>
+                        <span>{posting.like} persons like this</span>
                     </div>
                     <div>
-                        <span>{posting.comment}</span>
+                        <span>{posting.comment} persons comment the post</span>
                     </div>
 
                 </div>
