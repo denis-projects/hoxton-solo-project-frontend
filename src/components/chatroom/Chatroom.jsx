@@ -23,6 +23,13 @@ function Chatroom() {
                         <MoreVert />
                     </IconButton>
                 </div>
+            </div>
+            <div className='chat_body'>
+                <p className='chat_message'>
+                    <span>Denis</span>
+                    This is a message
+                    <span className='chat_timestaps'>{new Date().toUTCString()}</span>
+                </p>
 
             </div>
 
