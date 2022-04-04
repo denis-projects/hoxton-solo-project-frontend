@@ -1,5 +1,6 @@
 // @ts-nocheck
 import React from 'react'
+import "./chat.css"
 import AddNewChat from "../../components/addNewChat/AddNewChat.jsx"
 import Chatroom from "../../components/chatroom/Chatroom.jsx"
 
