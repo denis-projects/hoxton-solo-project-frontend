@@ -2,6 +2,7 @@ import { Chat, DonutLarge, MoreVert } from '@material-ui/icons'
 import React from 'react'
 import "./addNewChat.css"
 import { Avatar, IconButton } from '@material-ui/core'
+import SideBarChat from '../sideBarChat/SideBarChat'
 
 function AddNewChat() {
     return (
@@ -22,7 +23,12 @@ function AddNewChat() {
                     </IconButton>
                 </div>
             </div>
-            <div className="newChatFriends">Friends List</div>
+            <div className="newChatFriends">
+                <SideBarChat />
+                <SideBarChat />
+                <SideBarChat />
+                <SideBarChat />
+            </div>
         </div>
     )
 }
