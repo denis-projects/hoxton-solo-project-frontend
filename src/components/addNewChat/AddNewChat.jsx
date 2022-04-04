@@ -1,10 +1,10 @@
 import React from 'react'
 import "./addNewChat.css"
 
-function addNewChat() {
+function AddNewChat() {
     return (
         <div>addNewChat</div>
     )
 }
 
-export default addNewChat
+export default AddNewChat

@@ -1,12 +1,15 @@
+// @ts-nocheck
 import React from 'react'
+import AddNewChat from "../../components/addNewChat/AddNewChat.jsx"
+import Chatroom from "../../components/chatroom/Chatroom.jsx"
 
-function chat() {
+function Chat() {
     return (
         <div className='chatContainer'>
-            <div className="addNewChat"></div>
-            <div className='chatRoom'></div>
+            <AddNewChat />
+            <Chatroom />
         </div>
     )
 }
 
-export default chat
+export default Chat
