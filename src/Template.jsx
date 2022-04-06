@@ -1,32 +1,32 @@
 export const Users = [
     {
         id: 1,
-        profilePicture: "Assets/NicoloBarella.jpg",
+        profilePicture: "Assets/person/NicoloBarella.jpg",
         userName: "Nicolo Barella"
     },
     {
         id: 2,
-        profilePicture: "Assets/lautaro Martinez.jpg",
+        profilePicture: "Assets/person/lautaro Martinez.jpg",
         userName: "Lautaro Martinez"
     },
     {
         id: 3,
-        profilePicture: "Assets/MilanSkrinar.jpg",
+        profilePicture: "Assets/person/MilanSkrinar.jpg",
         userName: "Milan Skrinar"
     },
     {
         id: 4,
-        profilePicture: "Assets/Alexis Sanches.jpg",
+        profilePicture: "Assets/person/Alexis Sanches.jpg",
         userName: "Alexis Sanchez"
     },
     {
         id: 5,
-        profilePicture: "Assets/MarceloBrozovic.jpg",
+        profilePicture: "Assets/person/MarceloBrozovic.jpg",
         userName: "Marcelo Brozovic"
     },
     {
         id: 6,
-        profilePicture: "Assets/Alesandro Bastoni.jpg",
+        profilePicture: "Assets/person/Alesandro Bastoni.jpg",
         userName: "Alesandro Bastoni"
     }
 ];
@@ -35,7 +35,7 @@ export const PostsData = [
     {
         id: 1,
         desc: "What a beautiful day",
-        photo: "Assets/Logo2.jpg",
+        photo: "Assets/post/Logo2.jpg",
         date: "2 mins ago",
         userId: 1,
         like: 18,
@@ -44,7 +44,7 @@ export const PostsData = [
     {
         id: 2,
         desc: "What a goal",
-        photo: "Assets/Logo3.webp",
+        photo: "Assets/post/Logo3.webp",
         date: "10 mins ago",
         userId: 2,
         like: 13,
@@ -53,7 +53,7 @@ export const PostsData = [
     {
         id: 3,
         desc: "We deserve it",
-        photo: "Assets/Logo4.jpg",
+        photo: "Assets/post/Logo4.jpg",
         date: "2 mins ago",
         userId: 3,
         like: 8,
@@ -62,7 +62,7 @@ export const PostsData = [
     {
         id: 4,
         desc: "That is great",
-        photo: "Assets/Logo2.jpg",
+        photo: "Assets/post/Logo2.jpg",
         date: "12 mins ago",
         userId: 4,
         like: 7,
@@ -71,7 +71,7 @@ export const PostsData = [
     {
         id: 5,
         desc: "Victory is ours",
-        photo: "Assets/Logo3.webp",
+        photo: "Assets/post/Logo3.webp",
         date: "2 mins ago",
         userId: 5,
         like: 18,
@@ -80,7 +80,7 @@ export const PostsData = [
     {
         id: 6,
         desc: "NO one can stop us",
-        photo: "Assets/Logo6.jpg",
+        photo: "Assets/post/Logo6.jpg",
         date: "2 mins ago",
         userId: 6,
         like: 18,

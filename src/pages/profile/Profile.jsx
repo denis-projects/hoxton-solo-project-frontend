@@ -13,8 +13,8 @@ function Profile() {
                 <div className="profileRight">
                     <div className="profileRightTop">
                         <div className="profileCover">
-                            <img className="profileCoverImg" src="Assets/Logo6.jpg" alt="" />
-                            <img className="profileUserImg" src="Assets/MilanSkrinar.jpg" alt="" />
+                            <img className="profileCoverImg" src="Assets/post/Logo6.jpg" alt="" />
+                            <img className="profileUserImg" src="Assets/person/MilanSkrinar.jpg" alt="" />
                         </div>
                         <div className="profileInfo">
                             <h4 className="profileInfoName">Milan Skrinar</h4>

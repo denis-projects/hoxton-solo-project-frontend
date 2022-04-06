@@ -9,7 +9,7 @@ function SharePosts() {
         <div className='share_container'>
             <div className="share_Wrapper">
                 <div className="share_top">
-                    <img className='profilePicture' src="/Assets/MilanSkrinar.jpg" alt="" />
+                    <img className='profilePicture' src="/Assets/person/MilanSkrinar.jpg" alt="" />
                     <input type="text" placeholder="What's in your mind?" className='shareInput' />
                 </div>
                 <div className="share_options">
