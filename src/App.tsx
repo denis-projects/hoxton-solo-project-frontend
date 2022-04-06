@@ -7,6 +7,8 @@ import Chat from "../src/pages/chat/Chat.jsx"
 import Profile from "../src/pages/profile/Profile.jsx"
 // @ts-ignore
 import Login from "../src/pages/login/Login.jsx"
+// @ts-ignore
+import Register from "../src/pages/register/Register.jsx"
 
 import "../src/App.css"
 import { Route, Routes } from 'react-router-dom'
@@ -22,6 +24,7 @@ function App() {
         <Route path="/chat" element={<Chat />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
 
     </div>
